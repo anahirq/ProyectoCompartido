@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		09A7B37226FAC2BA00A95DCF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7B37126FAC2BA00A95DCF /* AppDelegate.swift */; };
 		09A7B37426FAC2BA00A95DCF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7B37326FAC2BA00A95DCF /* SceneDelegate.swift */; };
-		09A7B37626FAC2BA00A95DCF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7B37526FAC2BA00A95DCF /* ViewController.swift */; };
-		09A7B37926FAC2BA00A95DCF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A7B37726FAC2BA00A95DCF /* Main.storyboard */; };
 		09A7B37C26FAC2BA00A95DCF /* ProyectoCompartido.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09A7B37A26FAC2BA00A95DCF /* ProyectoCompartido.xcdatamodeld */; };
 		09A7B37E26FAC2BB00A95DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09A7B37D26FAC2BB00A95DCF /* Assets.xcassets */; };
 		09A7B38126FAC2BB00A95DCF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09A7B37F26FAC2BB00A95DCF /* LaunchScreen.storyboard */; };
+		09A7B38B26FAC83500A95DCF /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7B38A26FAC83500A95DCF /* TabBar.swift */; };
+		09A7B38D26FAC96D00A95DCF /* AnahiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7B38C26FAC96D00A95DCF /* AnahiVC.swift */; };
+		09A7B38F26FAC97A00A95DCF /* AlejandroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7B38E26FAC97900A95DCF /* AlejandroVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		09A7B36E26FAC2BA00A95DCF /* ProyectoCompartido.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProyectoCompartido.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A7B37126FAC2BA00A95DCF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		09A7B37326FAC2BA00A95DCF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		09A7B37526FAC2BA00A95DCF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		09A7B37826FAC2BA00A95DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		09A7B37B26FAC2BA00A95DCF /* ProyectoCompartido.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ProyectoCompartido.xcdatamodel; sourceTree = "<group>"; };
 		09A7B37D26FAC2BB00A95DCF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09A7B38026FAC2BB00A95DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09A7B38226FAC2BB00A95DCF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A7B38A26FAC83500A95DCF /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		09A7B38C26FAC96D00A95DCF /* AnahiVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnahiVC.swift; sourceTree = "<group>"; };
+		09A7B38E26FAC97900A95DCF /* AlejandroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlejandroVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,12 +62,13 @@
 			children = (
 				09A7B37126FAC2BA00A95DCF /* AppDelegate.swift */,
 				09A7B37326FAC2BA00A95DCF /* SceneDelegate.swift */,
-				09A7B37526FAC2BA00A95DCF /* ViewController.swift */,
-				09A7B37726FAC2BA00A95DCF /* Main.storyboard */,
 				09A7B37D26FAC2BB00A95DCF /* Assets.xcassets */,
 				09A7B37F26FAC2BB00A95DCF /* LaunchScreen.storyboard */,
 				09A7B38226FAC2BB00A95DCF /* Info.plist */,
 				09A7B37A26FAC2BA00A95DCF /* ProyectoCompartido.xcdatamodeld */,
+				09A7B38A26FAC83500A95DCF /* TabBar.swift */,
+				09A7B38C26FAC96D00A95DCF /* AnahiVC.swift */,
+				09A7B38E26FAC97900A95DCF /* AlejandroVC.swift */,
 			);
 			path = ProyectoCompartido;
 			sourceTree = "<group>";
@@ -129,7 +132,6 @@
 			files = (
 				09A7B38126FAC2BB00A95DCF /* LaunchScreen.storyboard in Resources */,
 				09A7B37E26FAC2BB00A95DCF /* Assets.xcassets in Resources */,
-				09A7B37926FAC2BA00A95DCF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,24 +142,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09A7B37626FAC2BA00A95DCF /* ViewController.swift in Sources */,
 				09A7B37226FAC2BA00A95DCF /* AppDelegate.swift in Sources */,
 				09A7B37C26FAC2BA00A95DCF /* ProyectoCompartido.xcdatamodeld in Sources */,
 				09A7B37426FAC2BA00A95DCF /* SceneDelegate.swift in Sources */,
+				09A7B38D26FAC96D00A95DCF /* AnahiVC.swift in Sources */,
+				09A7B38B26FAC83500A95DCF /* TabBar.swift in Sources */,
+				09A7B38F26FAC97A00A95DCF /* AlejandroVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		09A7B37726FAC2BA00A95DCF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				09A7B37826FAC2BA00A95DCF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		09A7B37F26FAC2BB00A95DCF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
