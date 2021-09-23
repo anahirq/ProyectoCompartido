@@ -41,6 +41,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01EC671F26FC0F5C00283703 /* DesarrolloAlejandro */ = {
+			isa = PBXGroup;
+			children = (
+				09A7B38E26FAC97900A95DCF /* AlejandroVC.swift */,
+			);
+			path = DesarrolloAlejandro;
+			sourceTree = "<group>";
+		};
+		01EC672026FC0F8100283703 /* DesarrolloAnahi */ = {
+			isa = PBXGroup;
+			children = (
+				09A7B38C26FAC96D00A95DCF /* AnahiVC.swift */,
+			);
+			path = DesarrolloAnahi;
+			sourceTree = "<group>";
+		};
 		09A7B36526FAC2BA00A95DCF = {
 			isa = PBXGroup;
 			children = (
@@ -67,8 +83,8 @@
 				09A7B38226FAC2BB00A95DCF /* Info.plist */,
 				09A7B37A26FAC2BA00A95DCF /* ProyectoCompartido.xcdatamodeld */,
 				09A7B38A26FAC83500A95DCF /* TabBar.swift */,
-				09A7B38C26FAC96D00A95DCF /* AnahiVC.swift */,
-				09A7B38E26FAC97900A95DCF /* AlejandroVC.swift */,
+				01EC672026FC0F8100283703 /* DesarrolloAnahi */,
+				01EC671F26FC0F5C00283703 /* DesarrolloAlejandro */,
 			);
 			path = ProyectoCompartido;
 			sourceTree = "<group>";
