@@ -12,6 +12,8 @@ class AlejandroVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBlue
+        
+        print("Commit")
 
         // Do any additional setup after loading the view.
     }
