@@ -14,8 +14,6 @@ class TabBar: UITabBarController {
         view.backgroundColor = .systemBackground
         view.tintColor = .systemBackground
         navBarContent()
-
-        // Do any additional setup after loading the view.
     }
     
 
