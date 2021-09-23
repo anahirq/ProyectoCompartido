@@ -11,6 +11,6 @@ class AnahiVC: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .systemPurple
+        view.backgroundColor = .systemPink
     }
 }
