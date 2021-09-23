@@ -20,10 +20,18 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         self.window?.rootViewController = home
         window?.makeKeyAndVisible()
         window?.windowScene = windowScene
-
+        configureNavigationBar()
     }
-
-
+    
+    func configureNavigationBar() {
+        let navBar = UINavigationBar()
+        let appearance = UINavigationBarAppearance()
+        appearance.configureWithOpaqueBackground()
+        appearance.backgroundColor = .systemRed
+        navBar.standardAppearance = appearance
+        navBar.scrollEdgeAppearance = navBar.standardAppearance
+        UINavigationBar.appearance().tintColor = .systemGreen
+    }
     
     func sceneDidDisconnect(_ scene: UIScene) {
         // Called as the scene is being released by the system.
